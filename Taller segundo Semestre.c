@@ -7,7 +7,7 @@
 #include <string.h>
 
 int main() {
-    char Product_Bar[11]; //Se usan condicionales11
+    char Product_Bar[11]; //Se usan condicionales
     char Store_Bar[6];
     
     // Codigo del producto
@@ -18,7 +18,7 @@ int main() {
         if (strlen(Product_Bar) == 10) {	//Mediante el strlen se comprueba la longitud
 		printf("Correcto.\n");
 		
-			if (Product_Bar == 8949899430);		
+			if (strcmp(Product_Bar == 8949899430) == 0);	
             printf("Su producto tiene 20 porciento de descuento\n");
             
             if (Product_Bar == 7653512593);
