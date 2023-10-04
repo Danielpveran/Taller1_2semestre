@@ -18,18 +18,18 @@ int main() {
         if (strlen(Product_Bar) == 10) {	//Mediante el strlen se comprueba la longitud
 		printf("Correcto.\n");
 		
-			if (strcmp(Product_Bar == 8949899430) == 0);	
+			if (strcmp(Product_Bar == 8949899430) == 0){
             printf("Su producto tiene 20 porciento de descuento\n");
-            
-            if (Product_Bar == 7653512593);
-            printf("Su producto tiene 20 porciento de descuento\n");
-			break;
-			
-			if (Product_Bar == 9383867373);
+            }
+            if (strcmp(Product_Bar == 7653512593) == 0)
             printf("Su producto tiene 20 porciento de descuento\n");
 			break;
 			
-			if (Product_Bar == 88392904209);
+			if (strcmp(Product_Bar == 9383867373) == 0);
+            printf("Su producto tiene 20 porciento de descuento\n");
+			break;
+			
+			if (strcmp(Product_Bar == 88392904209) == 0);
             printf("Su producto tiene 20 porciento de descuento\n");
 			break;
         }
